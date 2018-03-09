@@ -1,0 +1,23 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "Natours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheDavidGage/natours_udemy.git"
+  },
+  "author": "David Gage Hall <davidgage.hall@gmail.com> (https://www.github.com/TheDavidGage)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheDavidGage/natours_udemy/issues"
+  },
+  "homepage": "https://github.com/TheDavidGage/natours_udemy#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  },
+  "dependencies": {}
+}
