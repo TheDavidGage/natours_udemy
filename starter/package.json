@@ -7,7 +7,7 @@
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
     "compile:sass": "node-sass sass/main.scss css/style.comp.css",
     "concat:css": "concat -o css/style.concat.css css/icon-font.css css/style.comp.css",
-    "prefix:css": ""
+    "prefix:css": "postcss --use autoprefixer -b \"last 10 versions\" css/style.comp.css -o css/style.prefix.css"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,6 @@
     "autoprefixer": "^8.3.0",
     "concat": "^1.0.3",
     "node-sass": "^4.7.2",
-    "postcss": "^6.0.21",
     "postcss-cli": "^5.0.0"
   },
   "dependencies": {}
